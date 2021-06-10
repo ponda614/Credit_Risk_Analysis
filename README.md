@@ -4,27 +4,27 @@
 
 # Results
 
-- Naive Random Oversampling
+- Naive Random Oversampling - Balanced accuracy score is 65%
 
 ![](Capture1.PNG)
 
-- SMOTE Oversampling
+- SMOTE Oversampling - Balanced accuracy score is 66%
 
 ![](Capture2.PNG)
 
-- Undersampling
+- Undersampling - Balanced accuracy score is 54%
 
 ![](Capture3.PNG)
 
-- SMOTEENN Model
+- SMOTEENN Model - Balanced accuracy score is 65%
 
 ![](Capture4.PNG)
 
-- Balanced Random Forest Classifier
+- Balanced Random Forest Classifier - Balance accuracy score is 79%
 
 ![](Capture5.PNG)
 
-- Easy Ensemble AdaBoost Classifier
+- Easy Ensemble AdaBoost Classifier - Balance accuracy score is 65%
 
 ![](Capture6.PNG)
 
@@ -38,9 +38,9 @@
 
 - The SMOTEENN model balanced accuracy score is 65% and an F1 of 2% only.
 
-- The Balanced Random Forest Classifier accuracy score is 79% and an F1 of 1% only.
+- The Balanced Random Forest Classifier balance accuracy score is 79% and an F1 of 1% only.
 
-- The Easy Ensemble AdaBoost Classifier accuracy score is 65% and an F1 of 2% only.
+- The Easy Ensemble AdaBoost Classifier balance accuracy score is 65% and an F1 of 2% only.
 
 - The Balanced Random Forest Classifier, with and without AdaBoost, failed to achieve useable performance. All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. I would not recommend the bank to use any of these models to predict credit risk.
 
